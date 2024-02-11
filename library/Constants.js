@@ -1,0 +1,8 @@
+const SUBSCRIPTION_TIER = {
+  FREE: "FREE",
+  STARTER: "STARTER",
+  STANDARD: "STANDARD",
+  ADVANCED: "ADVANCED",
+};
+
+module.exports = { SUBSCRIPTION_TIER };
