@@ -15,8 +15,8 @@ const routersInit = (config) => {
   router.use("/auth", auth());
 
   router.use(permissionHandler);
-  router.use("/channel", channel());
-  router.use("/video", video());
+  router.use("/channels", channel());
+  router.use("/videos", video());
   // Define API Endpoints
   //router.use("/users", users());
 
